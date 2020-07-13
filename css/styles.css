@@ -1,0 +1,11 @@
+#title {
+  background-color: #ff4c68
+}
+.container-fluid{
+  margin: 0;
+}
+h1{
+  font-family: Montserrat black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
