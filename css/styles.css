@@ -125,3 +125,16 @@ p{
   padding: 3% 2%;
   text-align: center;
 }
+
+
+/* Call to Action */
+
+#cta{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding: 10% 5%;
+}
+.cta-text{
+    font-size: 3rem;
+}
