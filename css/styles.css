@@ -2,10 +2,6 @@ body{
   font-family: "Montserrat";
 }
 
-#title {
-  background-color: #ff4c68;
-
-}
 .container-fluid{
   padding: 0;
 }
@@ -57,18 +53,26 @@ p{
 }
 
 /* title image */
-
+#title {
+  background-color: #ff4c68;
+  position: relative;
+}
 .title-image{
   width: 60%;
   transform: rotate(25deg);
   background: #ff4c68;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 
 /* feature section */
 
-.features{
+#features{
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 .feature-box{
   text-align: center;
