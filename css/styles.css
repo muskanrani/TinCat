@@ -1,9 +1,10 @@
 body{
   font-family: "Montserrat";
+  text-align: center;
 }
 
 .container-fluid{
-  padding: 0;
+  padding: 7% 15%;
 }
 h1{
   font-family: "Montserrat-Black";
@@ -56,6 +57,7 @@ p{
 #title {
   background-color: #ff4c68;
   position: relative;
+  text-align: left;
 }
 .title-image{
   width: 60%;
@@ -69,13 +71,11 @@ p{
 /* feature section */
 
 #features{
-  padding: 7% 15%;
   background-color: white;
   position: relative;
   z-index: 1;
 }
 .feature-box{
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -92,8 +92,6 @@ p{
 
 /* testimonial section */
 #testimonials{
-
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -104,12 +102,8 @@ p{
   margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -127,14 +121,12 @@ p{
 
 .pricing-column {
   padding: 3% 2%;
-  text-align: center;
 }
 
 
 /* Call to Action */
 
 #cta{
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
   padding: 10% 5%;
@@ -146,10 +138,20 @@ p{
 /* footer */
 
 #footer{
-  text-align: center;
   padding: 7% 4%;
 }
 
 .social-icon{
   margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+  section#title {
+    text-align: center;
+  }
+  section#title .header-image {
+    transform: rotate(0);
+    position: static;
+  }
 }
